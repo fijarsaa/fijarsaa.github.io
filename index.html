@@ -1,43 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Portfolio Fijar</title>
-  <style>
-    body {
-      font-family: Arial;
-      text-align: center;
-      background: #f5f5f5;
-    }
-    .container {
-      margin-top: 50px;
-    }
-    h1 {
-      color: #333;
-    }
-    .card {
-      background: white;
-      padding: 20px;
-      margin: 20px auto;
-      width: 300px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fijar Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="container">
-    <h1>Halo, saya Fijar Saefuddin Al'abdi</h1>
-    <p>This my Portfolio</p>
 
-    <div class="card">
-      <h3>Data Science</h3>
-      <p>Enthusiast</p>
-    </div>
+<!-- NAVBAR -->
+<nav>
+  <h2>Fijar.</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-    <div class="card">
-      <h3>Project 2</h3>
-      <p>Aplikasi kecil</p>
-    </div>
+<!-- HERO -->
+<section id="home" class="hero fade-in">
+  <div class="hero-text">
+    <h1>Hi, I'm Fijar 👋</h1>
+    <p>CFD & Data Science Enthusiast</p>
+    <a href="#projects" class="btn">View My Work</a>
   </div>
+
+  <div class="hero-img">
+    <img src="assets/img/profile.jpg">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="fade-in">
+  <h2>About Me</h2>
+  <p>
+    I am a university student focusing on Computational Fluid Dynamics (CFD)
+    and Data Science. I enjoy solving engineering problems with simulation,
+    programming, and data-driven approaches.
+  </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="fade-in">
+  <h2>Projects</h2>
+
+  <div class="project-container">
+
+    <div class="card fade-in">
+      <img src="assets/img/cfd.jpg">
+      <h3>CFD Simulation</h3>
+      <p>Fluid flow analysis using simulation tools</p>
+    </div>
+
+    <div class="card fade-in">
+      <img src="assets/img/data.jpg">
+      <h3>Data Science Project</h3>
+      <p>Data analysis & visualization using Python</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="fade-in">
+  <h2>Contact</h2>
+  <p>Email: emailkamu@email.com</p>
+</section>
+
+<script src="script.js"></script>
+
 </body>
 </html>
