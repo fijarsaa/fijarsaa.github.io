@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #0d0d0d;
+  color: white;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: black;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: limegreen;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+}
+
+.hero-text p {
+  margin: 20px 0;
+}
+
+/* BUTTON */
+.btn {
+  background: limegreen;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: white;
+}
+
+/* IMAGE */
+.hero-img img {
+  width: 320px;
+  border-radius: 12px;
+}
+
+/* SECTION */
+section {
+  padding: 80px;
+  text-align: center;
+}
+
+/* PROJECT */
+.project-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* HOVER EFFECT */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+/* ANIMATION */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 1s;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
