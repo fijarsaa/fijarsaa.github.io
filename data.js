@@ -8,7 +8,7 @@
 // ---- 1. PROFIL ----
 // Info dasar yang tampil di navbar, hero, dan bagian about.
 const PROFILE = {
-  name: "Fijar Saefuddin Al'abdbi",
+  name: "Fijar Saefuddin Al'abdi",
   role: "Engineer — CFD & Data Science",
   tagline: "Fokus computational fluid dynamics dan data science untuk memecahkan masalah rekayasa.",
   about: [
