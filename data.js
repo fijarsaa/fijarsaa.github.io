@@ -10,6 +10,7 @@
 const PROFILE = {
   name: "Fijar Saefuddin Al'abdi",
   role: "Engineer — CFD & Data Science",
+  photo: "assets/images/profil.jpg"
   tagline: "Fokus computational fluid dynamics dan data science untuk memecahkan masalah rekayasa.",
   about: [
     "Tulis 2-3 kalimat tentang latar belakang Anda di sini. Ceritakan bagaimana Anda mulai tertarik pada engineering, computational fluid dynamics, dan data science.",
