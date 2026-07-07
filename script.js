@@ -7,6 +7,15 @@ document.getElementById("nav-name").textContent = PROFILE.name.toLowerCase().rep
 document.getElementById("hero-role").textContent = PROFILE.role;
 document.getElementById("hero-name").textContent = "Halo, saya " + PROFILE.name;
 document.getElementById("hero-tagline").textContent = PROFILE.tagline;
+
+const heroPhotoImg = document.getElementById("hero-photo-img");
+const heroPhotoPlaceholder = document.getElementById("hero-photo-placeholder");
+if (PROFILE.photo) {
+  heroPhotoImg.src = PROFILE.photo;
+  heroPhotoImg.style.display = "block";
+  heroPhotoPlaceholder.style.display = "none";
+}
+
 document.getElementById("footer-text").textContent = "\u00A9 " + new Date().getFullYear() + " " + PROFILE.name;
 
 const aboutText = document.getElementById("about-text");
