@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portofolio</title>
+<meta name="description" content="Portofolio engineer di persimpangan CFD dan data science." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar">
+  <div class="container">
+    <span class="brand" id="nav-name">nama.dev</span>
+    <nav>
+      <ul>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <svg class="hero-flow" viewBox="0 0 760 300" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M -50 60 C 150 20, 350 100, 550 50 S 850 20, 900 60" />
+    <path d="M -50 150 C 200 190, 400 110, 600 160 S 850 190, 900 150" />
+    <path d="M -50 240 C 180 200, 380 260, 580 220 S 830 200, 900 240" />
+  </svg>
+  <div class="container">
+    <span class="hero-role" id="hero-role">Engineer — CFD & Data Science</span>
+    <h1 id="hero-name">Halo, saya Nama Anda</h1>
+    <p class="tagline" id="hero-tagline">Menjembatani computational fluid dynamics dan data science untuk memecahkan masalah rekayasa.</p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">Lihat proyek</a>
+      <a href="#contact" class="btn">Hubungi saya</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about">
+  <div class="container about">
+    <span class="eyebrow">Tentang</span>
+    <div id="about-text"></div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects">
+  <div class="container">
+    <span class="eyebrow">Proyek</span>
+    <div class="filters" id="filters"></div>
+    <div class="project-grid" id="project-grid"></div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills">
+  <div class="container">
+    <span class="eyebrow">Keahlian</span>
+    <div id="skills-groups"></div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact">
+  <div class="container contact">
+    <span class="eyebrow">Kontak</span>
+    <h2>Mari terhubung</h2>
+    <div class="contact-links" id="contact-links"></div>
+  </div>
+</section>
+
+<footer>
+  <p id="footer-text">&copy; 2026 Nama Anda</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
