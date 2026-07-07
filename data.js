@@ -15,9 +15,9 @@ const PROFILE = {
     "Tulis 2-3 kalimat tentang latar belakang Anda di sini. Ceritakan bagaimana Anda mulai tertarik pada engineering, computational fluid dynamics, dan data science.",
     "Kalimat kedua bisa menjelaskan apa yang sedang Anda pelajari atau kerjakan saat ini."
   ],
-  email: "nama@email.com",
-  github: "https://github.com/username",
-  linkedin: "https://linkedin.com/in/username",
+  email: "fijarsaefuddin@gmail.com",
+  github: "https://github.com/fijarsaa",
+  linkedin: "https://linkedin.com/in/fijarsaa",
   resumeUrl: "" // isi dengan path CV, contoh: "assets/cv.pdf" — kosongkan jika belum ada
 };
 
