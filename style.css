@@ -267,38 +267,57 @@ h1, h2, h3 {
 
 @media (max-width: 760px) {
   .hero {
-    display: block;
-    min-height: auto;
-    padding: 96px 0 64px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    min-height: 560px;
+    padding: 0;
   }
 
   .hero-photo {
-    position: static;
+    position: absolute;
+    inset: 0;
     width: 100%;
-    height: 280px;
-    margin-bottom: 32px;
+    height: 100%;
+  }
+
+  .hero-photo img {
+    object-position: top center;
   }
 
   .hero-photo::after {
-    background: none;
+    background: linear-gradient(
+      to top,
+      var(--bg) 18%,
+      rgba(13, 15, 18, 0.65) 50%,
+      rgba(13, 15, 18, 0.1) 100%
+    );
+  }
+
+  .hero-photo span {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .hero-inner {
-    padding: 0 24px;
-    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding: 24px 24px 40px;
+    text-align: left;
   }
 
   .hero-text {
     max-width: 100%;
-    margin: 0 auto;
   }
 
   .hero p.tagline {
-    margin: 0 auto 36px;
+    margin: 0 0 28px;
   }
 
   .hero-actions {
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
 
