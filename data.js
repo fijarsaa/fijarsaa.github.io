@@ -8,9 +8,9 @@
 // ---- 1. PROFIL ----
 // Info dasar yang tampil di navbar, hero, dan bagian about.
 const PROFILE = {
-  name: "Nama Anda",
+  name: "Fijar Saefuddin Al'abdbi",
   role: "Engineer — CFD & Data Science",
-  tagline: "Menjembatani computational fluid dynamics dan data science untuk memecahkan masalah rekayasa.",
+  tagline: "Fokus computational fluid dynamics dan data science untuk memecahkan masalah rekayasa.",
   about: [
     "Tulis 2-3 kalimat tentang latar belakang Anda di sini. Ceritakan bagaimana Anda mulai tertarik pada engineering, computational fluid dynamics, dan data science.",
     "Kalimat kedua bisa menjelaskan apa yang sedang Anda pelajari atau kerjakan saat ini."
