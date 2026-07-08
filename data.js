@@ -9,12 +9,12 @@
 // Info dasar yang tampil di navbar, hero, dan bagian about.
 const PROFILE = {
   name: "Fijar Saefuddin Al'abdi",
-  role: "Engineer — CFD & Data Science",
+  role: "Engineer — Simulation CFD & Data",
   photo: "assets/images/profil.png",
   tagline: "Fokus computational fluid dynamics dan data science untuk memecahkan masalah rekayasa.",
   about: [
-    "Tulis 2-3 kalimat tentang latar belakang Anda di sini. Ceritakan bagaimana Anda mulai tertarik pada engineering, computational fluid dynamics, dan data science.",
-    "Kalimat kedua bisa menjelaskan apa yang sedang Anda pelajari atau kerjakan saat ini."
+    "Hai saya mahasiswa di Universitas Gadjah Mada dengan program studi Teknik Pertanian dan focus Teknik Mesin Biosistem",
+    "Saya tertarik dalam dunia simulasi mengenai bagaimana aliran bisa bergerak dengan CFD dan menganisis suatu data"
   ],
   email: "fijarsaefuddin@gmail.com",
   github: "https://github.com/fijarsaa",
@@ -28,7 +28,7 @@ const PROFILE = {
 const CATEGORIES = [
   { id: "general", label: "General" },
   { id: "cfd", label: "CFD" },
-  { id: "ds", label: "Data science" }
+  { id: "ds", label: "Data" }
 ];
 
 // ---- 3. PROYEK ----
@@ -49,7 +49,7 @@ const PROJECTS = [
 const SKILLS = [
   { name: "Python", category: "general" },
   { name: "Git", category: "general" },
-  { name: "OpenFOAM", category: "cfd" },
+  { name: "Ansys", category: "cfd" },
   { name: "ParaView", category: "cfd" },
   { name: "MATLAB", category: "cfd" },
   { name: "Pandas", category: "ds" },
