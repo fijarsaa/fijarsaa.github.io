@@ -35,13 +35,13 @@ const CATEGORIES = [
 // Kosongkan array ini biarkan tampil sebagai "slot kosong" per kategori,
 // atau isi seperti contoh di bawah (hapus tanda komentar untuk mengaktifkan).
 const PROJECTS = [
-  // {
-  //   title: "Simulasi aliran udara di sekitar airfoil",
-  //   category: "cfd",
-  //   description: "Simulasi 2D menggunakan OpenFOAM untuk menganalisis pola aliran dan koefisien drag pada berbagai sudut serang.",
-  //   tags: ["OpenFOAM", "ParaView"],
-  //   link: "https://github.com/username/nama-repo"
-  // },
+   {
+     title: "Board Game: Labline",
+     category: "general",
+     description: "Membuat dan menganalisis Board Game dari pra sampai pasca",
+     tags: ["Story", "Desain"],
+     link: ""
+   },
 ];
 
 // ---- 4. KEAHLIAN ----
